@@ -2,7 +2,7 @@
 
 > CentraleSupélec · AI & ML track · Client: **CEA-List** (French national research lab) · Feb – Jun 2024 · Team of 5
 
-**TL;DR**: A 16×16 pressure-sensing mat is meant to recognize 7 sitting postures. The difficulty is that every person's body shape shifts the data, so a classifier trained on some people fails on a new one. We applied **multi-source domain adaptation with optimal transport** (DaDiL) to build a personalized classifier for an unseen user without any of their labels. We then **diagnosed why it broke on real-world data**: spontaneous sitting contains many postures outside the 7 known ones. To address this, we built **novelty-detection** components that flag those postures.
+A 16×16 pressure-sensing mat is meant to recognize 7 sitting postures. The difficulty is that every person's body shape shifts the data, so a classifier trained on some people fails on a new one. We applied **multi-source domain adaptation with optimal transport** (DaDiL) to build a personalized classifier for an unseen user without any of their labels. We then **diagnosed why it broke on real-world data**: spontaneous sitting contains many postures outside the 7 known ones. To address this, we built **novelty-detection** components that flag those postures.
 
 > Code is kept in a private team repository; the recordings are the lab's data.
 
