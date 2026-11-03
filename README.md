@@ -71,8 +71,9 @@ flowchart LR
 
 ## My contribution
 
-- Team role: **client-relationship lead**, keeping the team aligned with the researcher's expectations and maintaining delivery momentum
-- [technical contribution to fill in]
+- Reasoning on clustering, finding K-means and DBSCAN methods weaknesses on distinguishing 2 pressure heatmaps
+- Suggesting new metrics to optimize the clustering 
+- Exploration work on optimal transport theory
 
 ## Stack
 
